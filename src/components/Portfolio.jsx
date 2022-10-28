@@ -1,8 +1,8 @@
 import React from 'react'
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
+import halloween from "../assets/portfolio/halloween.png";
 import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
+import reactSnikers from "../assets/portfolio/reactSnikers.png";
+import reactPizza from "../assets/portfolio/reactPizza.png";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
@@ -10,27 +10,39 @@ const Portfolio = () => {
     const portfolios = [
         {
           id: 1,
-          src: arrayDestruct,
+          src: halloween,
+          demo: 'https://alexpavlo.github.io/halloween/',
+          code: 'https://github.com/alexpavlo/halloween',
         },
         {
           id: 2,
-          src: reactParallax,
+          src: reactPizza,
+          demo: 'https://react-pizza-test.herokuapp.com/',
+          code: 'https://github.com/alexpavlo/pizza-store',
         },
         {
           id: 3,
-          src: navbar,
+          src: reactSnikers,
+          demo: 'https://alexpavlo.github.io/react-sneakers/',
+          code: 'https://github.com/alexpavlo/react-sneakers',
         },
         {
           id: 4,
           src: reactSmooth,
+          demo: 'https://react-pizza-test.herokuapp.com/',
+          code: 'https://github.com/alexpavlo/pizza-store',
         },
         {
           id: 5,
           src: installNode,
+          demo: 'https://react-pizza-test.herokuapp.com/',
+          code: 'https://github.com/alexpavlo/pizza-store',
         },
         {
           id: 6,
           src: reactWeather,
+          demo: 'https://react-pizza-test.herokuapp.com/',
+          code: 'https://github.com/alexpavlo/pizza-store',
         },
       ];
 
@@ -42,13 +54,13 @@ const Portfolio = () => {
                 <p className='py-6'>Check out of my work right here</p>
             </div>
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
-            {portfolios.map(({id, src})=>(
+            {portfolios.map(({id, src, demo, code})=>(
                 
                 <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                     <img src={src} alt="" className='rounded-md duration-200 hover:scale-105'/>
                     <div className='flex items-center justify-center'>
-                        <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button> 
-                        <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button>
+                        <a href={demo} target="_blank" rel='noreferrer' className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</a> 
+                        <a href={code} target="_blank" rel='noreferrer' className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</a>
                     </div>
                 </div>
             ))}
