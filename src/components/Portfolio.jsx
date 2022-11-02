@@ -1,10 +1,10 @@
 import React from 'react'
 import halloween from "../assets/portfolio/halloween.png";
-import installNode from "../assets/portfolio/installNode.jpg";
 import reactSnikers from "../assets/portfolio/reactSnikers.png";
 import reactPizza from "../assets/portfolio/reactPizza.png";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import typingSpeed from "../assets/portfolio/typingSpeed.png"
+
+
 
 const Portfolio = () => {
     const portfolios = [
@@ -28,9 +28,9 @@ const Portfolio = () => {
         },
         {
           id: 4,
-          src: reactSmooth,
-          demo: 'https://react-pizza-test.herokuapp.com/',
-          code: 'https://github.com/alexpavlo/pizza-store',
+          src: typingSpeed,
+          demo: 'https://reviroio-frontend-assignment.vercel.app/',
+          code: 'https://github.com/alexpavlo/reviroio-frontend-assignment/tree/main/first-task-typing-speed',
         },
         {
           id: 5,
