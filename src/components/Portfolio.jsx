@@ -4,6 +4,7 @@ import reactSnikers from "../assets/portfolio/reactSnikers.png";
 import reactPizza from "../assets/portfolio/reactPizza.png";
 import typingSpeed from "../assets/portfolio/typingSpeed.png"
 import kardiocentr from '../assets/portfolio/kardiocentr.png'
+import currency from '../assets/portfolio/currency.png'
 
 
 const Portfolio = () => {
@@ -40,9 +41,9 @@ const Portfolio = () => {
         },
         {
           id: 6,
-          src: reactWeather,
-          demo: 'https://react-pizza-test.herokuapp.com/',
-          code: 'https://github.com/alexpavlo/pizza-store',
+          src: currency,
+          demo: 'https://currency-react.vercel.app/',
+          code: 'https://github.com/alexpavlo/currency-react',
         },
       ];
 
