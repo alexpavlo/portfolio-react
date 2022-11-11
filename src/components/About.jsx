@@ -7,9 +7,15 @@ const About = () => {
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
             </div>
-            <p className='text-xl mt-20'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto eum repudiandae quaerat illo rem totam labore doloremque aut vel iste, fugiat praesentium eveniet excepturi, possimus impedit. Consequatur debitis tempora totam odio? Natus quibusdam corrupti possimus perspiciatis dolores rerum iste in, culpa fugit enim quaerat laboriosam! Doloremque delectus recusandae deleniti ipsa!</p>
+            <p className='text-xl mt-20'>I am engaged in Front-end development, layout from 0 and write a little Back-end on Node.JS
+Front-end: React.js, Redux, axios, JavaScript, Styled components, material-UI, NEXT..JS
+Back-end: Node.js (express.js, Next.js, MongoDB)</p>
             <br/>
-            <p className='text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nobis vel accusantium exercitationem tenetur eius qui porro iure unde reprehenderit facilis corrupti cupiditate, accusamus at, magnam laborum cumque suscipit maiores odit dolorum maxime, dolore recusandae. Enim ullam quis assumenda nobis error ipsam eveniet in sunt odit? Consequatur, veritatis sapiente! Quod!</p>
+            <p className='text-xl'>I am good at layout, I use BEM preprocessors (Scss, Sass, Less), only PixelPefrect.
+In my spare time I enjoy React-native
+I am using Gulp, Webpack for building. NPM package managers, composer
+I use Git to publish projects on GitHub, GitLab
+Languages: Russian-Fluent. English-speaking, reading literature and documentation</p>
 
         </div>
     </div>
