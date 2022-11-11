@@ -3,7 +3,7 @@ import halloween from "../assets/portfolio/halloween.png";
 import reactSnikers from "../assets/portfolio/reactSnikers.png";
 import reactPizza from "../assets/portfolio/reactPizza.png";
 import typingSpeed from "../assets/portfolio/typingSpeed.png"
-
+import kardiocentr from '../assets/portfolio/kardiocentr.png'
 
 
 const Portfolio = () => {
@@ -34,9 +34,9 @@ const Portfolio = () => {
         },
         {
           id: 5,
-          src: installNode,
-          demo: 'https://react-pizza-test.herokuapp.com/',
-          code: 'https://github.com/alexpavlo/pizza-store',
+          src: kardiocentr,
+          demo: 'https://www.kardiocentr.kg/',
+          code: 'https://github.com/alexpavlo/cardiocentre3th',
         },
         {
           id: 6,
